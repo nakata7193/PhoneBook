@@ -1,0 +1,67 @@
+﻿.container {
+     width:100%;
+     display:inline-block;
+}
+
+.header .title {
+    float: left;
+    display: inline-block;
+}
+
+.header .welcomeMsg {
+    float: right;
+    display: inline-block;
+}
+
+.menu {
+
+}
+
+.menu li {
+    float:left;
+    margin:0px 20px;
+    list-style:none;
+}
+
+.menu li a {
+    color: blue;
+    text-decoration:none;
+}
+
+.grid {
+    display:inline-block;
+    width:100%;
+}
+
+.grid .row {
+    display:inline-block;
+    width:100%;
+    padding-bottom:1px;
+}
+
+.grid .row .col-1 {
+    display: inline-block;
+    width: 150px;
+}
+
+.grid .row .col-2 {
+    display: inline-block;
+    width: 300px;
+}
+
+.grid .row .col-3 {
+    display: inline-block;
+    width: 450px;
+}
+
+input[type=text] {
+    width: 300px;
+}
+
+input[type=password] {
+    width: 300px;
+}
+
+.right{
+    float:right;
+}

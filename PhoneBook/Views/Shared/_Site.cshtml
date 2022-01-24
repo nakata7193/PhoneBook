@@ -1,0 +1,24 @@
+﻿<html>
+<head>
+    <link href="~/Site.css" rel="stylesheet" />
+    <title>@ViewData["title"]</title>
+    </head>
+    <body>
+        <div class="container header">
+            <h1 class="title">PhoneBook Manager</h1>
+            <div class="welcomeMsg">
+                <span>Hello, Annonymus</span>
+            </div>
+        </div>
+        <div class="container">
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Users</a></li>
+                <li><a href="/Home/Login">Login</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            @RenderBody()
+        </div>
+    </body>
+</html>
